@@ -1,0 +1,41 @@
+.transcation-items {
+  display: flex;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+  width: 10%;
+  padding-top: 0;
+  margin-top: 0px;
+}
+.del-image {
+  width: 20px;
+  height: 20px;
+}
+.title-list {
+  width: 50%;
+  font-size: 14px;
+}
+.amount-list {
+  width: 20%;
+  font-size: 14px;
+}
+.type-list {
+  width: 20%;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .title-list {
+    width: 50%;
+    font-size: 16px;
+  }
+  .amount-list {
+    width: 20%;
+    font-size: 16px;
+  }
+  .type-list {
+    width: 20%;
+    font-size: 16px;
+  }
+}
